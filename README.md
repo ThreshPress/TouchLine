@@ -1,26 +1,16 @@
-# Touchline — GitHub Pages deployment
+# TouchLine — Build 2
 
-This package publishes the current Touchline 0.1 prototype as a static website. No build command, API key, or dependency installation is needed.
+## Update your GitHub Pages site
+1. Export your current workspace backup from Club.
+2. Unzip this package.
+3. Upload index.html and README.md into the root of your EXISTING repository, replacing the old files. Do not upload the ZIP itself.
+4. Commit the changes. Your existing GitHub Pages deployment will update.
+5. Refresh the website after deployment completes. The footer should say Build 2.
 
-## Publish with manual GitHub uploads
-1. Unzip this download on your computer.
-2. Create a new GitHub repository (a public repository works with GitHub Free).
-3. Use Add file → Upload files. Upload index.html and README.md directly to the repository root, not inside another folder. Do not upload the ZIP itself. Commit to main.
-4. Open Settings → Pages. Under Build and deployment, select Deploy from a branch.
-5. Choose main and / (root), then Save.
-6. Wait for GitHub Pages to finish deployment. Open the website link displayed in Settings → Pages.
+For a new repository: Settings → Pages → Deploy from a branch → main → / (root) → Save. No API key or build command is required.
 
-If main is not offered yet, commit the files first and refresh Settings → Pages. If publication is restricted by your account or organization, follow GitHub's displayed requirements. No custom domain is needed.
+Existing sessions are preserved when using the same website address and browser. Generate a new session to use the new content. Copy/paste is internal to TouchLine diagram editors. The planner uses an expanded curriculum catalog, not a live AI connection.
 
-Official setup instructions: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+Changed: activity detail synchronization; print-width isolation; palette, resize and shortcuts; 100 activities; 47 Learn guides; Home and branding refresh.
 
-## What this deploys
-Team setup, age-specific session generation, editable diagrams, adaptation, saved sessions, field timer, basic seasons, and browser print/PDF layouts. The bundled index.html includes all JavaScript and styling.
-
-Sessions are stored in each visitor's browser, not in GitHub. They do not synchronize across devices or coaches. Use Club → Export workspace backup regularly. Moving from the downloaded HTML to the hosted site does not carry local data automatically; export then restore through Club. No real student or child personal information is needed.
-
-## Status and limitations
-This is a first working prototype, not the complete production platform. AI services, shared club accounts, document uploads, and director publishing are not connected. Build and engine checks passed. Browser interaction, responsive appearance, and actual PDF page breaks were not verified because preview access was denied.
-
-## Updating
-Replace index.html with a later deployment build and commit. Keep the same repository/site address. Store the editable source project separately; this is the compiled deployment package.
+Basic build/type/initialization checks passed. Please manually test print edges, diagram interaction, session quality, and mobile use.
